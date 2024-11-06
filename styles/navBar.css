@@ -11,17 +11,64 @@
     color: white;
     text-decoration: none;
     font-size: larger;
-    font-weight: bold;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
 }
 
-.navBarContainer a:hover{
+.navBarContainer a i{
+    display: none;
+    height: 22px;
+    width: 22px;
+    fill: white;
+    margin-right: 5px;  
+    margin-bottom: 3px;
+}
+
+.navBarContainer a:hover,.navBarContainer a.activePage,.navBarContainer:hover a.activePage:hover{
     color:black;
     background: linear-gradient(to bottom, #e8edec, #d2d1d3);
     box-shadow: 0px 0px 5px white;;
     transform: scale(1.2);
     transition-duration: 0.3s;
 }
+.navBarContainer a:hover i, .navBarContainer a.activePage i,.navBarContainer:hover a.activePage:hover i{
+    fill: black;
+    display: block;
+}
+
+.navBarContainer:hover a.activePage{
+    color:white;
+    background: None;
+    box-shadow: None;
+    transition-duration: 0s;
+    transform: none;
+}
+.navBarContainer:hover a.activePage i{
+    display: none;
+}
+
+@media only screen and (max-width:750px){
+    .navBarContainer a{
+        border-radius: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .navBarContainer a p{
+        display: none;
+    }
+    .navBarContainer a i{
+        display: block;
+    }
+    .navBarContainer a.activePage p{
+        display: block;
+    }
+    .navBarContainer a.activePage{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+
+

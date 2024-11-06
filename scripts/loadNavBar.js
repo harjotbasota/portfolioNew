@@ -10,3 +10,4 @@ const loadNavBar = async ()=>{
 }
 
 loadNavBar();
+loadPages('home');
