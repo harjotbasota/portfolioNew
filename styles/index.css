@@ -20,10 +20,22 @@ body{
 }
 #page{
     margin-top: 25px;
-    height: 80%;
+    min-height: 80%;
     width: 100%;
 }
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-5%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); 
+    }
+  }
+
 @media only screen and (max-width:750px){
+
     #navbar{
         min-width: 380px;
         max-height: 60px;

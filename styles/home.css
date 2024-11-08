@@ -50,6 +50,9 @@
 .socialMediaLinks a i{    
     margin-left: 10%;
 }
+.socialMediaLinks a i:hover{
+    scale: 1.1;
+}
 
 .portfolioPicture{
     height: 70%;
@@ -60,18 +63,42 @@
     background-position: center;
     display: flex;
     justify-content: center;
+    transform: translateX(-5%); 
+    animation: slideIn 2s ease forwards;
 }
 .portfolioPicture img{
     height: 100%;
     width: 100%;
 }
-@keyframes slideIn {
-  0% {
-    opacity: 0;
-    transform: translateX(-5%);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0); 
-  }
+@media only screen and (max-width:950px){
+    .home{
+        gap:5%;
+    }
+    .Introduction{
+        margin-left: 4%;
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 730px){
+    .home{
+        flex-direction: column-reverse;
+        align-items: center;
+        height: auto;
+    }
+    .Introduction{
+        width: 90%;
+        margin-top: 0%;
+    }
+    .portfolioPicture{
+        margin-top: 25px;
+        border-radius: 50%;
+        min-height: 210px;
+        min-width: 210px;
+    }
+    .portfolioPicture img{
+        border-radius: 50%;
+    }
+    .socialMediaLinks a i{    
+        margin-left: 7%;
+    }
 }
