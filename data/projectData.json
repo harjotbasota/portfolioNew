@@ -1,0 +1,27 @@
+{
+    "GoldScreenCinema":{
+        "name":"Gold Screen Cinema",
+        "homePageImagePath":"./media/CollegesiteHomepage.png",
+        "archImagePath":"./media/collegeArch.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+    },
+    "Project2":{
+        "name":"this is project 2",
+        "homePageImagePath":"./media/inventoryHomepage.png",
+        "archImagePath":"./media/invArch.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+    },
+    "Project3":{
+        "name":"this is project 2",
+        "homePageImagePath":"./media/pf.png",
+        "archImagePath":"./media/collegeArch.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+    },
+    "Project4":{
+        "name":"this is project 2",
+        "homePageImagePath":"./media/pf.png",
+        "archImagePath":"./media/collegeArch.png",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+    }
+
+}

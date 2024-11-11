@@ -26,11 +26,12 @@ body{
 @keyframes slideIn {
     0% {
       opacity: 0;
-      transform: translateX(-5%);
+      transform: translateX(-5%) rotateY(60deg);
+  
     }
     100% {
       opacity: 1;
-      transform: translateX(0); 
+      transform: translateX(0) rotateY(0deg); 
     }
   }
 
