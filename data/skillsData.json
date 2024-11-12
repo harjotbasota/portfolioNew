@@ -1,4 +1,10 @@
 {
-    "Web Development": ["HTML","CSs"],
-    "DevOps":["jenkins"]
+    "Web Development": {
+        "HTML":"./media/pf.png",
+        "CSS":"./media/pf.png"
+    },
+    "DevOps":{
+        "HTML":"./media/pf.png",
+        "CSS":"./media/pf.png"
+    }
 }
