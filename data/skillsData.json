@@ -1,10 +1,13 @@
 {
     "Web Development": {
-        "HTML":"./media/pf.png",
-        "CSS":"./media/pf.png"
+        "HTML":"./media/skillIcons/html.png",
+        "CSS":"./media/skillIcons/css.png",
+        "Javascript":"./media/skillIcons/javascript.png",
+        "React JS":"./media/skillIcons/reactjs.png",
+        "Node JS":"./media/skillIcons/nodejs.png"
     },
     "DevOps":{
-        "HTML":"./media/pf.png",
-        "CSS":"./media/pf.png"
+        "Jenkins":"./media/pf.png",
+        "AWS":"./media/pf.png"
     }
 }

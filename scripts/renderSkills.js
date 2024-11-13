@@ -5,10 +5,17 @@ const renderSkills = async ()=>{
     const skillsContainer = await fetchSkillsContainer.text();
     Object.entries(skillsData).map((skillObject)=>{
         const sectionHeader = skillObject[0];
-        console.log("section header:",sectionHeader);
+        let skillListHTML ="";
         Object.entries(skillObject[1]).map((skill)=>{
-            console.log("skill Name:",skill[0]);
-            console.log("skill image src: ", skill[1]);
+            skillListHTML += `<div class="skill">
+                                <img src=${skill[1]} />   
+                                ${skill[0]}             
+                                </div>
+                                `
         })
+        let skillsHTML = skillsContainer
+                                .replace('${skillsHeader}',sectionHeader)
+                                .replace('${skillDiv}',skillListHTML);
+        document.getElementById('skills').innerHTML += skillsHTML;
     })
 }
