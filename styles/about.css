@@ -1,6 +1,6 @@
 .about{
     display: flex;
-    gap:12%;
+    gap:5%;
     flex-wrap: wrap;
 }
 
@@ -9,7 +9,6 @@
     flex-direction: column;
     height: max-content;
     width: 30%;
-    margin-left: 5%;
     min-width:375px;
     box-shadow: 0px 5px 10px white;
 }
@@ -69,7 +68,6 @@
     border: 1px solid black;
     background: rgba(248, 248, 248, 0.5);
     box-shadow: 0px 3px 10px grey;
-    margin-top: 20px;
     flex-grow: 1;
 }
 .highlight{

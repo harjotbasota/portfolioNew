@@ -1,13 +1,32 @@
-{
+{   
     "Web Development": {
         "HTML":"./media/skillIcons/html.png",
         "CSS":"./media/skillIcons/css.png",
         "Javascript":"./media/skillIcons/javascript.png",
         "React JS":"./media/skillIcons/reactjs.png",
-        "Node JS":"./media/skillIcons/nodejs.png"
+        "Node JS":"./media/skillIcons/nodejs.png",
+        "Django":"./media/skillIcons/django.png"
+    },
+    "Cloud Computing":{
+        "Azure":"./media/skillIcons/azure.png",
+        "AWS":"./media/skillIcons/aws.jpg",
+        "GCP":"./media/skillIcons/gcp.png",
+        "Terraform":"./media/skillIcons/terraform.jpg",
+        "Ansible":"./media/skillIcons/ansible.jpg"
     },
     "DevOps":{
-        "Jenkins":"./media/pf.png",
-        "AWS":"./media/pf.png"
+        "Jenkins":"./media/skillIcons/jenkins.webp",
+        "Docker":"./media/skillIcons/docker.jpg",
+        "Linux OS":"./media/skillIcons/linux.jpg",
+        "Bash Scripting":"./media/skillIcons/bash.jpg",
+        "Python Scripting":"./media/skillIcons/python.png",
+        "Nginx":"./media/skillIcons/nginx.png",
+        "Git/Github":"./media/skillIcons/git.png"
+    },
+    "Programming Languages / Databases": {
+        "Javascript":"./media/skillIcons/javascript.png",
+        "Python":"./media/skillIcons/python.png",
+        "SQL":"./media/skillIcons/sql.jpg",
+        "Mongo":"./media/skillIcons/mongo.jpg"
     }
 }
