@@ -8,7 +8,8 @@ const loadPages = async (pagename)=>{
             link.classList.remove('activePage');
         });
         switch(pagename){
-            case 'home': links[0].classList.add('activePage');break;
+            case 'home': links[0].classList.add('activePage'); displayViews();
+                        break;
             case 'about': links[1].classList.add('activePage');break;
             case 'projects': links[2].classList.add('activePage');
                             renderProjects();break;

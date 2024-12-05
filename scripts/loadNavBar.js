@@ -9,5 +9,11 @@ const loadNavBar = async ()=>{
     }
 }
 
-loadNavBar();
-loadPages('home');
+const initializeApp = async ()=>{
+    await loadNavBar();
+    await loadPages('home');
+    await getViews();
+    await displayViews();
+}
+
+initializeApp();

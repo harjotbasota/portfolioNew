@@ -1,22 +1,24 @@
 <div class="contact">
     <div class="formContainer">
-        <form>
+        <form onsubmit="sendEmail()">
             <h1> Contact Me </h1>
             <label for="nameOfUser">
                 Name
             </label>
-            <input type="text" id="nameOfUser" />
+            <input type="text" id="nameOfUser" required />
 
             <label for="emailOfUser">
                 Email
             </label>
-            <input type="text" id="emailOfUser" />
+            <input type="text" id="emailOfUser" required />
 
             <label for="messageOfUser">
                 Message
             </label>
-            <textarea rows="5" id="messageOfUser"></textarea>
-            <button type="submit" >Send</button>
+            <textarea rows="5" id="messageOfUser" required ></textarea>
+            <div id="contactFormSubmissionResponse"></div>
+            <button type="submit">Send</button>
+            
         </form>
     </div>
 </div>
