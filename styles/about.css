@@ -92,6 +92,7 @@
     transform: translateZ(-100px) scale(0.9); 
     opacity: 0; 
     animation: comeToFront 1s ease-in-out 0.4s forwards;
+    padding: 6px;
 }
 .highlight{
     font-weight: bolder;
