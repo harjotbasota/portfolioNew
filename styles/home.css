@@ -34,6 +34,15 @@
     -webkit-text-fill-color: transparent;
     margin-left: 7px;
 }
+#viewCount{
+    font-size: 2.5rem;
+    margin-top: 15px;    
+    background: linear-gradient(to right, #22ff00, #ff0073); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+    text-align: center; 
+    white-space: nowrap;   
+}
 .selfDescription{
     font-size: 1.2rem;
     margin-top: 10px;
@@ -75,8 +84,11 @@
         gap:5%;
     }
     .Introduction{
-        margin-left: 4%;
+        margin-left: 1.5%;
         width: 50%;
+    }
+    .portfolioPicture{
+        width: 47%;
     }
 }
 @media only screen and (max-width: 730px){
@@ -86,19 +98,49 @@
         height: auto;
     }
     .Introduction{
-        width: 90%;
+        width: 97%;
         margin-top: 0%;
+        margin-left: 1%;
     }
     .portfolioPicture{
         margin-top: 25px;
         border-radius: 50%;
-        min-height: 210px;
-        min-width: 210px;
+        min-height: 250px;
+        min-width: 250px;
     }
     .portfolioPicture img{
-        border-radius: 50%;
+        border-radius: 32%;
     }
     .socialMediaLinks a i{    
         margin-left: 7%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-height:601px){
+    .Introduction{
+        width: 90%;
+        margin-left: 3%;
+    }
+    .name,.role{
+        margin-top: 5px;
+    }
+    .portfolioPicture{
+        width: 40%;
+    }
+    .home{
+        gap: 2%;
+    }
+}
+@media only screen and (min-width: 1024px) and (min-height:1024px){
+    .Introduction{
+        height: 60%;
+        width: 50%;
+        margin-left: 2%;
+    }
+    .portfolioPicture{
+        height: 60%;
+        width: 50%;
+    }
+    .home{
+        gap: 2%;
     }
 }

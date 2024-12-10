@@ -13,7 +13,8 @@ const sendEmail = async ()=>{
         body: JSON.stringify(bodyObject)        
         })
         if(response.ok){
-            alert('Your Email has been sent')
+            alert('Your Email has been sent');
+            document.getElementById('contactForm').reset();
         }else{
             document.getElementById('contactFormSubmissionResponse').innerText = 'Failed to send. Try again later'
         }

@@ -1,27 +1,39 @@
 {
-    "GoldScreenCinema":{
+    "Project1":{
         "name":"Gold Screen Cinema",
         "homePageImagePath":"./media/Projects/gscHomepage.png",
         "archImagePath":"./media/Projects/gsc_arch.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+        "liveLink":"https://goldscreencinema.harjotbasota.com",
+        "detailsLink":"./media/Projects/goldScreenCinema.pdf",
+        "gitRepo":"https://github.com/harjotbasota/goldScreenCinema",
+        "description":"Gold Screen Cinema is a responsive full-stack MERN website deployed on AWS with microservices in Docker containers. It features CI/CD automation via GitHub Actions for efficient testing, building, and deployment, ensuring consistent quality and rapid feature delivery."
     },
     "Project2":{
         "name":"Serverless Portfolio",
         "homePageImagePath":"./media/Projects/gscHomepage.png",
         "archImagePath":"./media/Projects/gsc_arch.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+        "liveLink":"live",
+        "detailsLink":"#",
+        "gitRepo":"https://github.com/harjotbasota/portfolioNew",
+        "description":"React.js, Node.js, Express.js, MongoDB, APIs, JWT Authentication, AWS EC2, AWS Route 53, AWS Cloudwatch, Docker, Certbot, GitHub actions, GitHub Secrets, Shell Scripts, Shell Scripting"
     },
     "Project3":{
         "name":"Inventory Management Application",
         "homePageImagePath":"./media/Projects/Inventory_Homepage.png",
         "archImagePath":"./media/Projects/inv_arch.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+        "liveLink":"#",
+        "detailsLink":"./media/Projects/InventoryManagementSystem.pdf",
+        "gitRepo":"https://github.com/harjotbasota/InventoryManagementSystem",
+        "description":"The Inventory Management Application is a serverless solution deployed on AWS, utilizing services like AWS Lambda, RDS (MySQL), API Gateway, Cognito, and S3 for efficient inventory management. Infrastructure is provisioned with Terraform, and secure access to the database is managed via an EC2 bastion host."
     },
     "Project4":{
         "name":"College Website",
         "homePageImagePath":"./media/Projects/CollegesiteHomepage.png",
         "archImagePath":"./media/Projects/college_arch.png",
-        "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius ligula ac nunc vehicula, sit amet luctus erat hendrerit. Nullam aliquet diam in nisl pellentesque, at tristique lorem elementum. Curabitur consequat, justo vel commodo aliquet, augue elit auctor eros, non vehicula justo erat ut sapien."
+        "liveLink":"#",
+        "detailsLink":"./media/Projects/Project_CollegeWebsite.pdf",
+        "gitRepo":"https://github.com/harjotbasota/Project_CollegeWebsite",
+        "description":"The dynamic College Website was developed using Django, HTML, and CSS, deployed on AWS with autoscaling and a load balancer for scalability. The database is secured in a private subnet. Terraform, Ansible, and shell scripts were used for streamlined deployment, system management, and automation."
     }
 
 }
