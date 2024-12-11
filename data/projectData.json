@@ -10,12 +10,12 @@
     },
     "Project2":{
         "name":"Serverless Portfolio",
-        "homePageImagePath":"./media/Projects/gscHomepage.png",
-        "archImagePath":"./media/Projects/gsc_arch.png",
+        "homePageImagePath":"./media/Projects/portfolioHomepage.png",
+        "archImagePath":"./media/Projects/portfolio_arch.png",
         "liveLink":"live",
-        "detailsLink":"#",
+        "detailsLink":"./media/Projects/portfolioNew.pdf",
         "gitRepo":"https://github.com/harjotbasota/portfolioNew",
-        "description":"React.js, Node.js, Express.js, MongoDB, APIs, JWT Authentication, AWS EC2, AWS Route 53, AWS Cloudwatch, Docker, Certbot, GitHub actions, GitHub Secrets, Shell Scripts, Shell Scripting"
+        "description":"This full-stack application uses HTML, CSS, JavaScript for the frontend and Python for the backend. It is responsive, follows a serverless architecture on AWS for scalability and performance, and utilizes a CI/CD pipeline with GitHub Actions for automated deployment, ensuring continuous integration and reliable, up-to-date performance."
     },
     "Project3":{
         "name":"Inventory Management Application",
