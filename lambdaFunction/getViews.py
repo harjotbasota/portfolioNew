@@ -16,7 +16,7 @@ def lambda_handler(event, context):
         })
         return {
             'statusCode': 200,
-            'body': json.dumps(views)
+            'body': json.dumps(500)
         }
     except Exception as e:
         return{
